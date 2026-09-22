@@ -1,0 +1,5 @@
+# Eigenes Quarto-Projekt, damit die Seite unabhängig vom PNIRS-Projekt rendert
+project:
+  type: default
+  render:
+    - index.qmd

@@ -1,50 +1,26 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="author" content="Finn Dreisigacker">
-<meta name="description" content="Poster (GCSM 2026): Kynurenine pathway dynamics and affective response to high- and low-intensity resistance exercise – a randomized crossover trial. PDF download.">
-
-<title>Kynurenine Pathway &amp; Affective Response to Resistance Exercise – GCSM 2026 Poster</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
-</style>
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Kynurenine Pathway Dynamics and Affective Response to High- and Low-Intensity Resistance Exercise">
-<meta property="og:description" content="Poster presented at GCSM 2026 – randomized crossover trial, n = 24. PDF download.">
-<meta property="og:url" content="https://finn-dreisigacker.github.io/gcsm2026-poster/">
-<meta property="og:image" content="https://finn-dreisigacker.github.io/gcsm2026-poster/poster-preview.png">
-
-
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-
-
-
+---
+pagetitle: "Kynurenine Pathway & Affective Response to Resistance Exercise – GCSM 2026 Poster"
+description-meta: "Poster (GCSM 2026): Kynurenine pathway dynamics and affective response to high- and low-intensity resistance exercise – a randomized crossover trial. PDF download."
+author-meta: "Finn Dreisigacker"
+lang: en
+format:
+  html:
+    minimal: true          # kein Bootstrap, keine Skripte – nur style.css
+    css: style.css
+    include-in-header:
+      text: |
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Kynurenine Pathway Dynamics and Affective Response to High- and Low-Intensity Resistance Exercise">
+        <meta property="og:description" content="Poster presented at GCSM 2026 – randomized crossover trial, n = 24. PDF download.">
+        <meta property="og:url" content="https://finn-dreisigacker.github.io/gcsm2026-poster/">
+        <meta property="og:image" content="https://finn-dreisigacker.github.io/gcsm2026-poster/poster-preview.png">
+---
 
 <!-- Blöcke mit ```{=html} gehen unverändert in die Seite. Das ist nötig, wo
      style.css auf Klassen zugreift (Kopf, Download-Karte, Fakten, Fußzeile).
      Überschriften und Fließtext stehen als Markdown und sind direkt editierbar. -->
+
+```{=html}
 <header class="hero">
   <div class="wrap">
     <p class="eyebrow">Poster · GCSM 2026</p>
@@ -59,7 +35,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section class="download" aria-label="Download">
   <a class="preview" href="poster.pdf">
-    <img src="poster-preview.png" alt="Preview of the poster" onerror="this.closest('a').remove()">
+    <img src="poster-preview.png" alt="Preview of the poster"
+         onerror="this.closest('a').remove()">
   </a>
   <div class="actions">
     <a class="button" href="poster.pdf" download="Dreisigacker_GCSM2026_Poster.pdf">Download poster (PDF)</a>
@@ -69,7 +46,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 <section aria-labelledby="glance">
-<h2 id="glance">At a glance</h2>
+```
+
+## At a glance {#glance}
+
+```{=html}
 <dl class="facts">
   <dt>Design</dt>
   <dd>Randomized crossover trial</dd>
@@ -86,7 +67,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 <section aria-labelledby="related">
-<h2 id="related">Related publication</h2>
+```
+
+## Related publication {#related}
+
+```{=html}
 <p class="ref">Fabritius, F., Rißmayer, M., Ringleb, M., Joisten, N., Bloch, W., Dreisigacker, F., &amp; Javelle, F. (2026).
   Intensity matters: High-intensity interval resistance exercise induces greater immune activation than
   low-intensity resistance exercise 45 min post-workout. <em>European Journal of Applied Physiology</em>.
@@ -94,17 +79,19 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 <section aria-labelledby="contact">
-<h2 id="contact">Contact</h2>
-<p>Finn Dreisigacker · <a href="mailto:F.Dreisigacker@dshs-koeln.de">F.Dreisigacker@dshs-koeln.de</a> · <a href="https://www.researchgate.net/profile/Finn-Dreisigacker">ResearchGate</a></p>
+```
+
+## Contact {#contact}
+
+Finn Dreisigacker ·
+[F.Dreisigacker@dshs-koeln.de](mailto:F.Dreisigacker@dshs-koeln.de) ·
+[ResearchGate](https://www.researchgate.net/profile/Finn-Dreisigacker)
+
+```{=html}
 </section>
 </main>
 
 <footer class="wrap">
   <p>© 2026 Finn Dreisigacker · This page uses no cookies, trackers or external resources.</p>
 </footer>
-
-
-
-
-
-</body></html>
+```
